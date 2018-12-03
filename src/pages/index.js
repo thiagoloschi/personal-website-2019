@@ -1,23 +1,13 @@
 import React from 'react';
+import config from 'config';
 import BusinessCard from 'components/BusinessCard';
 
-const IndexPage = () => (
-  <main>
-    <BusinessCard
-      name={{ firstName: 'Thiago', lastName: 'Loschi' }}
-      jobTitle="Senior Front End Engineer"
-      contacts={[
-        {
-          name: 'facebook',
-          url: 'https://facebook.com/thiagoloschi',
-        },
-        {
-          name: 'github',
-          url: 'https://github.com/thiagoloschi',
-        },
-      ]}
-    />
-  </main>
-);
-
+const IndexPage = () => {
+  const { name, jobTitle, contacts } = config;
+  return (
+    <main>
+      <BusinessCard name={name} jobTitle={jobTitle} contacts={contacts} />
+    </main>
+  );
+};
 export default IndexPage;

@@ -1,0 +1,29 @@
+{
+  "name": {
+    "firstName": "Thiago",
+    "lastName": "Loschi"
+  },
+  "jobTitle": "Senior Front End Engineer",
+  "contacts": [
+    {
+      "name": "linkedin",
+      "url": "https://linkedin.com/in/thiagoloschi"
+    },
+    {
+      "name": "github",
+      "url": "https://github.com/thiagoloschi"
+    },
+    {
+      "name": "codepen",
+      "url": "https://codepen.com/thiagoloschi"
+    },
+    {
+      "name": "instagram",
+      "url": "https://instagram.com/thiagoloschi_"
+    },
+    {
+      "name": "facebook",
+      "url": "https://facebook.com/thiagoloschi"
+    }
+  ]
+}
