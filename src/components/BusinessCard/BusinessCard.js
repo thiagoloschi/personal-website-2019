@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Contacts from 'components/ContactFactory';
 
 BusinessCard.propTypes = {
   name: PropTypes.shape({
@@ -7,10 +8,10 @@ BusinessCard.propTypes = {
     lastName: PropTypes.string,
   }),
   jobTitle: PropTypes.string,
-  socials: PropTypes.arrayOf,
+  contacts: PropTypes.array,
 };
 
-export default function BusinessCard({ name, jobTitle }) {
+export default function BusinessCard({ name, jobTitle, contacts }) {
   const { firstName, lastName } = name;
 
   return (
@@ -20,6 +21,7 @@ export default function BusinessCard({ name, jobTitle }) {
         <strong> {lastName}</strong>
       </p>
       <p>{jobTitle}</p>
+      <Contacts info={contacts} />
     </section>
   );
 }
