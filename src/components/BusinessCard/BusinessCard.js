@@ -2,7 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Contacts from 'components/ContactFactory';
 
-export default function BusinessCard({ name, jobTitle, contacts }) {
+export default function BusinessCard({ personalInfo }) {
+  const { name, jobTitle, contacts } = personalInfo;
   const { firstName, lastName } = name;
 
   return (

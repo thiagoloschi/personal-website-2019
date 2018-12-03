@@ -1,29 +1,43 @@
 {
-  "name": {
-    "firstName": "Thiago",
-    "lastName": "Loschi"
+  "personalInfo": {
+    "name": {
+      "firstName": "Thiago",
+      "lastName": "Loschi"
+    },
+    "jobTitle": "Senior Front End Engineer",
+    "contacts": [
+      {
+        "name": "linkedin",
+        "url": "https://linkedin.com/in/thiagoloschi"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/thiagoloschi"
+      },
+      {
+        "name": "codepen",
+        "url": "https://codepen.com/thiagoloschi"
+      },
+      {
+        "name": "instagram",
+        "url": "https://instagram.com/thiagoloschi_"
+      },
+      {
+        "name": "facebook",
+        "url": "https://facebook.com/thiagoloschi"
+      }
+    ]
   },
-  "jobTitle": "Senior Front End Engineer",
-  "contacts": [
+  "education": [
     {
-      "name": "linkedin",
-      "url": "https://linkedin.com/in/thiagoloschi"
-    },
-    {
-      "name": "github",
-      "url": "https://github.com/thiagoloschi"
-    },
-    {
-      "name": "codepen",
-      "url": "https://codepen.com/thiagoloschi"
-    },
-    {
-      "name": "instagram",
-      "url": "https://instagram.com/thiagoloschi_"
-    },
-    {
-      "name": "facebook",
-      "url": "https://facebook.com/thiagoloschi"
+      "period": {
+        "beginDate": "06/2015",
+        "endDate": "06/2016"
+      },
+      "school": "California State University East Bay",
+      "major": "Computer Science",
+      "type": "Non-degree continuing education",
+      "place": "Hayward, California, US"
     }
   ],
   "experiences": [

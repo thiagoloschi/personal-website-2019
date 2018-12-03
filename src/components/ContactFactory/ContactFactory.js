@@ -3,8 +3,6 @@ import PropTypes from 'prop-types';
 import Contact from 'components/Contact';
 
 export default function ContactFactory({ info }) {
-  const Contacts = info.map(({ name, url }) => (
-    <Contact name={name} url={url} key={name} />
-  ));
+  const Contacts = info.map(info => <Contact {...info} key={info.name} />);
   return <Fragment>{Contacts}</Fragment>;
 }

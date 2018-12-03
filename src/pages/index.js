@@ -1,13 +1,15 @@
 import React from 'react';
 import config from 'config';
 import BusinessCard from 'components/BusinessCard';
+import Education from 'components/EducationFactory';
 import Experiences from 'components/ExperiencesFactory';
 
 const IndexPage = () => {
-  const { name, jobTitle, contacts, experiences } = config;
+  const { personalInfo, education, experiences } = config;
   return (
     <main>
-      <BusinessCard name={name} jobTitle={jobTitle} contacts={contacts} />
+      <BusinessCard personalInfo={personalInfo} />
+      <Education education={education} />
       <Experiences experiences={experiences} />
     </main>
   );

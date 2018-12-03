@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function BusinessCard({
+export default function ExperienceCard({
   period,
   jobTitle,
   company,
@@ -25,7 +25,7 @@ export default function BusinessCard({
   );
 }
 
-BusinessCard.propTypes = {
+ExperienceCard.propTypes = {
   period: PropTypes.shape({
     beginDate: PropTypes.string,
     endDate: PropTypes.string,
