@@ -25,5 +25,18 @@
       "name": "facebook",
       "url": "https://facebook.com/thiagoloschi"
     }
+  ],
+  "experiences": [
+    {
+      "period": {
+        "beginDate": "08/2018",
+        "endDate": "3/2019"
+      },
+      "jobTitle": "Senior Front End Engineer",
+      "company": "Farfecth",
+      "description": "Currently building the store of the future",
+      "url": "https://farfeth.com",
+      "image": "https://image4.owler.com/logo/farfetch_owler_20170622_121117_original.jpg"
+    }
   ]
 }
