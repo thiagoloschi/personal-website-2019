@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Card from 'components/Card';
 import Contacts from 'components/ContactFactory';
 
 export default function BusinessCard({ personalInfo }) {
@@ -7,14 +8,14 @@ export default function BusinessCard({ personalInfo }) {
   const { firstName, lastName } = name;
 
   return (
-    <section>
+    <Card>
       <p>
         {firstName}
         <strong> {lastName}</strong>
       </p>
       <p>{jobTitle}</p>
       <Contacts info={contacts} />
-    </section>
+    </Card>
   );
 }
 

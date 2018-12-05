@@ -38,6 +38,16 @@
       "major": "Computer Science",
       "type": "Non-degree continuing education",
       "place": "Hayward, California, US"
+    },
+    {
+      "period": {
+        "beginDate": "01/2013",
+        "endDate": "12/2016"
+      },
+      "school": "Instituto Federal do Sudeste de Minas Gerais",
+      "major": "Systems for the Internet",
+      "type": "BS",
+      "place": "Barbacena, Minas Gerais, Brazil"
     }
   ],
   "experiences": [
@@ -48,9 +58,26 @@
       },
       "jobTitle": "Senior Front End Engineer",
       "company": "Farfecth",
+      "location": "Sao Paulo, Brazil",
       "description": "Currently building the store of the future",
       "url": "https://farfeth.com",
-      "image": "https://image4.owler.com/logo/farfetch_owler_20170622_121117_original.jpg"
+      "image": "https://image4.owler.com/logo/farfetch_owler_20170622_121117_original.jpg",
+      "color": "#fff",
+      "text": "#333"
+    },
+    {
+      "period": {
+        "beginDate": "07/2017",
+        "endDate": "08/2018"
+      },
+      "jobTitle": "Front End Engineer",
+      "company": "QuintoAndar",
+      "location": "Sao Paulo, Brazil",
+      "description": "With a product driven mindset and many talented people, I helped building QuintoAndar, the new generation real estate services in Brazil, with top-notch technologies such as PWA, ES6, React, Redux, Webpack, Nodejs, Styled-components, Jest, Enzyme, and others.\n\nMetrics I helped to achieve were:\n\n- Improving company's Net Promoter Score to a challenging rate\n- Building features to help the company to scale\n- Improving company's communications systems\n- Improving company's SEO and marketing presence\n- Improving our apps performance",
+      "url": "https://quintoandar.com.br",
+      "image": "https://www.kaszek.com/wp-content/uploads/2018/03/qa.png",
+      "color": "#5063f0",
+      "text": "#fff"
     }
   ]
 }

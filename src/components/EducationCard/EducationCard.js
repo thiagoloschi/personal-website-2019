@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Card from 'components/Card';
 
 export default function EducationCard({ period, school, major, type, place }) {
   const { beginDate, endDate } = period;
 
   return (
-    <section>
+    <Card>
       <p>
         {beginDate} - {endDate}
       </p>
@@ -13,7 +14,7 @@ export default function EducationCard({ period, school, major, type, place }) {
       <p>{major}</p>
       <p>{type}</p>
       <p>{place}</p>
-    </section>
+    </Card>
   );
 }
 

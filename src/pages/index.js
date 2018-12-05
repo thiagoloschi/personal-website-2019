@@ -1,17 +1,6 @@
 import React from 'react';
-import config from 'config';
-import BusinessCard from 'components/BusinessCard';
-import Education from 'components/EducationFactory';
-import Experiences from 'components/ExperiencesFactory';
+import Main from 'containers/main';
 
-const IndexPage = () => {
-  const { personalInfo, education, experiences } = config;
-  return (
-    <main>
-      <BusinessCard personalInfo={personalInfo} />
-      <Education education={education} />
-      <Experiences experiences={experiences} />
-    </main>
-  );
-};
-export default IndexPage;
+export default function IndexPage() {
+  return <Main />;
+}
