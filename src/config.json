@@ -54,15 +54,15 @@
     {
       "period": {
         "beginDate": "08/2018",
-        "endDate": "3/2019"
+        "endDate": "current"
       },
       "jobTitle": "Senior Front End Engineer",
       "company": "Farfecth",
       "location": "Sao Paulo, Brazil",
-      "description": "Currently building the store of the future",
-      "url": "https://farfeth.com",
-      "image": "https://image4.owler.com/logo/farfetch_owler_20170622_121117_original.jpg",
-      "color": "#fff",
+      "description": "Working in a multidiciplinary global team, I'm currently helping to build what we believe to be the store of the future.\n\n My team is responsible for creating world class connected devices that will boost shoppers experince from the moment they walk in the store, till they're ready to leave, making it also possible for them to continue shopping from home.\n\n There are two main React applications we're building and they're mostly using Redux, Next, Electron, Webpack, Jest and Enzyme. The main one will be used on our fitting room's smart mirrors. Our clients at Farfetch product lines Store of The Future and Black and White, the ones I work with, are huge Fashion brands like Chanel, Thom Browne and Browns, and we always keep in mind the idea of having our products ready to be used for new clients in the future.",
+      "url": "https://farfetch.com",
+      "image": "https://i.amz.mshcdn.com/VWqhqdBXySHLqXPwYFLJOa3aJ54=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F446429%2Fa86e424d-51cc-447c-831b-a4b076a9a955.jpg",
+      "color": "#fafafa",
       "text": "#333"
     },
     {
@@ -77,6 +77,34 @@
       "url": "https://quintoandar.com.br",
       "image": "https://www.kaszek.com/wp-content/uploads/2018/03/qa.png",
       "color": "#5063f0",
+      "text": "#fff"
+    },
+    {
+      "period": {
+        "beginDate": "03/2017",
+        "endDate": "07/2017"
+      },
+      "jobTitle": "Full Stack Developer",
+      "company": "PRTE Tecnologia",
+      "location": "Barbacena, remote, Brazil",
+      "description": "We used to build full scalable and stable applications for our clients. Our goal was to use technology to make people's life easier somehow, what we used to achieve by focusing on listening to customers' needs and delivering more than software solutions, but satisfaction and value. The technologies I used were ES6 Javascript, Angularjs, and Reactjs for the FrontEnd, and Ruby on Rails, and Nodejs for the BackEnd.",
+      "url": "https://prte.com.br",
+      "image": "https://scontent.fcgh23-1.fna.fbcdn.net/v/t31.0-8/17635230_1487664674639567_6041624776622573815_o.jpg?_nc_cat=107&_nc_ht=scontent.fcgh23-1.fna&oh=6c1f6872873769658634a387beed7640&oe=5CA429CA",
+      "color": "#f81889",
+      "text": "#fff"
+    },
+    {
+      "period": {
+        "beginDate": "06/2016",
+        "endDate": "09/2016"
+      },
+      "jobTitle": "Junior Developer",
+      "company": "University of California, Irvine",
+      "location": "Irvine, California, US",
+      "description": "During this internship, I was part of the team developing a project called \"Exergame\", which aims to stimulate people exercising while they're playing games as Minecraft or Pokemon GO, for example. I helped to build the web app front-end with Angularjs and I also got to give some small Java Back End contributions.",
+      "url": "https://uci.edu/",
+      "image": "https://www.insidehighered.com/sites/default/server_files/media/Schools%20page/University%20of%20California%2C%20Irvine.jpg",
+      "color": "#0064a4",
       "text": "#fff"
     }
   ]

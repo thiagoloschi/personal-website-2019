@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Card from 'components/Card';
+import { CenteredCard, Title, JobTitle } from './look';
+
 import Contacts from 'components/ContactFactory';
 
 export default function BusinessCard({ personalInfo }) {
@@ -8,14 +9,14 @@ export default function BusinessCard({ personalInfo }) {
   const { firstName, lastName } = name;
 
   return (
-    <Card>
-      <p>
+    <CenteredCard>
+      <Title>
         {firstName}
         <strong> {lastName}</strong>
-      </p>
-      <p>{jobTitle}</p>
-      <Contacts info={contacts} />
-    </Card>
+      </Title>
+      <JobTitle>{jobTitle}</JobTitle>
+      <Contacts contactInfo={contacts} />
+    </CenteredCard>
   );
 }
 

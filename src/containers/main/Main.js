@@ -1,6 +1,5 @@
 import React from 'react';
 import config from 'config';
-import styled from 'styled-components';
 import BusinessCard from 'components/BusinessCard';
 import Education from 'components/EducationFactory';
 import Experiences from 'components/ExperiencesFactory';

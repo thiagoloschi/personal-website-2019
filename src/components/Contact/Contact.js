@@ -12,3 +12,8 @@ export default function Contact({ name, url }) {
     </a>
   );
 }
+
+Contact.propTypes = {
+  name: PropTypes.string,
+  url: PropTypes.string,
+};

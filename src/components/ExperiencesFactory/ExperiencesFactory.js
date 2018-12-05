@@ -8,3 +8,7 @@ export default function ExperiencesFactory({ experiences }) {
   ));
   return <Fragment>{Experiences}</Fragment>;
 }
+
+ExperiencesFactory.propTypes = {
+  experiences: PropTypes.arrayOf(Object),
+};

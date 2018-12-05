@@ -8,3 +8,7 @@ export default function EducationFactory({ education }) {
   ));
   return <Fragment>{Education}</Fragment>;
 }
+
+EducationFactory.propTypes = {
+  education: PropTypes.arrayOf(Object),
+};
