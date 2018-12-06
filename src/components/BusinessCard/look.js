@@ -1,11 +1,6 @@
 import styled from 'styled-components';
 import Card from 'components/Card';
 
-export const CenteredCard = styled(Card)`
-  display: flex;
-  justify-content: center;
-`;
-
 export const Title = styled.p`
   font-size: 48px;
   text-align: center;

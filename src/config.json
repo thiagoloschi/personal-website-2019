@@ -4,7 +4,7 @@
       "firstName": "Thiago",
       "lastName": "Loschi"
     },
-    "jobTitle": "Senior Front End Engineer",
+    "jobTitle": "Senior Front End Engineer - Ottawa, Canada",
     "contacts": [
       {
         "name": "linkedin",
@@ -59,7 +59,7 @@
       "jobTitle": "Senior Front End Engineer",
       "company": "Farfecth",
       "location": "Sao Paulo, Brazil",
-      "description": "Working in a multidiciplinary global team, I'm currently helping to build what we believe to be the store of the future.\n\n My team is responsible for creating world class connected devices that will boost shoppers experince from the moment they walk in the store, till they're ready to leave, making it also possible for them to continue shopping from home.\n\n There are two main React applications we're building and they're mostly using Redux, Next, Electron, Webpack, Jest and Enzyme. The main one will be used on our fitting room's smart mirrors. Our clients at Farfetch product lines Store of The Future and Black and White, the ones I work with, are huge Fashion brands like Chanel, Thom Browne and Browns, and we always keep in mind the idea of having our products ready to be used for new clients in the future.",
+      "description": "Working in a multidisciplinary global team, I'm currently helping to build what we consider to be the store of the future. My team is responsible for creating world class connected devices that will boost shoppers experience from the moment they walk in the store until they're ready to leave, making it also possible for them to continue shopping from home.\n\n There are two main React applications we're building and they're mostly being built using Redux, Nextjs, Electron, Webpack, Jest and Enzyme. The main one will be used on our fitting room's smart mirrors.\n\n I'm currently working on two product lines, the Store of The Future and the Black and White platform. Our core clients are huge and well known fashion brands like Chanel, Thom Browne and Browns and we always keep in mind the idea of having our products ready to be used for new clients in the future.",
       "url": "https://farfetch.com",
       "image": "https://i.amz.mshcdn.com/VWqhqdBXySHLqXPwYFLJOa3aJ54=/950x534/filters:quality(90)/https%3A%2F%2Fblueprint-api-production.s3.amazonaws.com%2Fuploads%2Fcard%2Fimage%2F446429%2Fa86e424d-51cc-447c-831b-a4b076a9a955.jpg",
       "color": "#fafafa",
@@ -73,7 +73,7 @@
       "jobTitle": "Front End Engineer",
       "company": "QuintoAndar",
       "location": "Sao Paulo, Brazil",
-      "description": "With a product driven mindset and many talented people, I helped building QuintoAndar, the new generation real estate services in Brazil, with top-notch technologies such as PWA, ES6, React, Redux, Webpack, Nodejs, Styled-components, Jest, Enzyme, and others.\n\nMetrics I helped to achieve were:\n\n- Improving company's Net Promoter Score to a challenging rate\n- Building features to help the company to scale\n- Improving company's communications systems\n- Improving company's SEO and marketing presence\n- Improving our apps performance",
+      "description": "With a product driven mindset and many talented people, I helped to build QuintoAndar, the new generation real estate services in Brazil, with top-notch technologies such as PWA, ES6, React, Redux, Webpack, Nodejs, Jest, Enzyme, and others. This was by far the most enriching experience I had so far.\n\n Some of the accomplishments I helped achieving were:\n\n- Improve company's NPS to a challenging rate\n- Build features to help the company to scale\n- Build APIs that integrates with WhatsApp to improve our communications with our customers\n- Build features to improve SEO and marketing presence \n- Improve our apps performance",
       "url": "https://quintoandar.com.br",
       "image": "https://www.kaszek.com/wp-content/uploads/2018/03/qa.png",
       "color": "#5063f0",
@@ -86,11 +86,25 @@
       },
       "jobTitle": "Full Stack Developer",
       "company": "PRTE Tecnologia",
-      "location": "Barbacena, remote, Brazil",
-      "description": "We used to build full scalable and stable applications for our clients. Our goal was to use technology to make people's life easier somehow, what we used to achieve by focusing on listening to customers' needs and delivering more than software solutions, but satisfaction and value. The technologies I used were ES6 Javascript, Angularjs, and Reactjs for the FrontEnd, and Ruby on Rails, and Nodejs for the BackEnd.",
+      "location": "Barbacena, Brazil",
+      "description": "We used to build full scalable and stable applications for our clients and the goal was to propose technical solutions to companies problems, what we used to achieve by focusing on listening to their needs and delivering more than software solutions, but satisfaction and value.\n\n The main project was developed for Zôdio, a French company that was coming to Brazil and had their social network as their main business strategy. \n\nWe built the social network using ES6, Angularjs and Ionic, an API in Ruby and a CMS to manage the API in React.",
       "url": "https://prte.com.br",
       "image": "https://scontent.fcgh23-1.fna.fbcdn.net/v/t31.0-8/17635230_1487664674639567_6041624776622573815_o.jpg?_nc_cat=107&_nc_ht=scontent.fcgh23-1.fna&oh=6c1f6872873769658634a387beed7640&oe=5CA429CA",
       "color": "#f81889",
+      "text": "#fff"
+    },
+    {
+      "period": {
+        "beginDate": "09/2016",
+        "endDate": "03/2017"
+      },
+      "jobTitle": "Front End Developer",
+      "company": "Self",
+      "location": "Barbacena, Brazil",
+      "description": "I've always worked by myself and at this point, I had just returned to Brazil to finish my Sandwich Graduation. \n\nI developed small projects using mostly Nodejs, Angularjs, Express and Mongodb. \n\nThe most impactful one was Instmanager, a client for Instagram that lets you manage your information and also gives you exclusive insights gathered from matching different data returned from the Instagram API.",
+      "url": "https://instmanager.herokuapp.com",
+      "image": "https://instmanager.herokuapp.com/img/main.png",
+      "color": "rgba(153,47,255,1)",
       "text": "#fff"
     },
     {
@@ -100,8 +114,8 @@
       },
       "jobTitle": "Junior Developer",
       "company": "University of California, Irvine",
-      "location": "Irvine, California, US",
-      "description": "During this internship, I was part of the team developing a project called \"Exergame\", which aims to stimulate people exercising while they're playing games as Minecraft or Pokemon GO, for example. I helped to build the web app front-end with Angularjs and I also got to give some small Java Back End contributions.",
+      "location": "Irvine, United States",
+      "description": "During this Summer Internship, I was part of the team developing a project called iXercise, which aims to stimulate people exercising while they're playing games as Minecraft or Pokemon GO.\n\n I helped building the web app Front End with Angularjs and I also got to give some small Java contributions.",
       "url": "https://uci.edu/",
       "image": "https://www.insidehighered.com/sites/default/server_files/media/Schools%20page/University%20of%20California%2C%20Irvine.jpg",
       "color": "#0064a4",

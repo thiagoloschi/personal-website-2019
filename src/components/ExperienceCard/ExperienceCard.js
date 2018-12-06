@@ -1,7 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Card from 'components/Card';
-import { Image, Description, Date, Company } from './look';
+import {
+  FixedSizeCard,
+  Image,
+  ImageWrapper,
+  Description,
+  Date,
+  Company,
+  Title,
+} from './look';
 
 export default function ExperienceCard({
   period,
@@ -17,18 +24,20 @@ export default function ExperienceCard({
   const { beginDate, endDate } = period;
 
   return (
-    <Card color={color} text={text}>
-      <Date>
-        {beginDate} - {endDate}
-      </Date>
-      <Company> {company}</Company>
+    <FixedSizeCard color={color} text={text}>
+      <Title>
+        <Company>{company}</Company>
+        <Date>
+          {beginDate} - {endDate}
+        </Date>
+      </Title>
       <p>{jobTitle}</p>
       <p>{location}</p>
       <Description>{description}</Description>
-      <a href={url} target="_blank" rel="noopener noreferrer">
+      <ImageWrapper href={url} target="_blank" rel="noopener noreferrer">
         <Image src={image} title={company} alt={company} />
-      </a>
-    </Card>
+      </ImageWrapper>
+    </FixedSizeCard>
   );
 }
 

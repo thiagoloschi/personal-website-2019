@@ -7,19 +7,31 @@ export const Main = styled.main`
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  overflow: hidden;
   max-height: 100vh;
+  overflow-y: hidden;
+
+  @media only screen and (max-width: 1024px) {
+    overflow-y: auto;
+  }
 `;
 
 export const LeftSection = styled.section`
   width: 35%;
   min-width: 400px;
+
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
 `;
 
 export const RightSection = styled.section`
   width: 55%;
   min-width: 400px;
   overflow-y: auto;
+
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
 
   &::-webkit-scrollbar {
     display: none;
