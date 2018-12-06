@@ -9,6 +9,7 @@ export const Main = styled.main`
   justify-content: space-around;
   max-height: 100vh;
   overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 
   @media only screen and (max-width: 1024px) {
     overflow-y: auto;

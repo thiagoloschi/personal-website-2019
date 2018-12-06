@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Card from 'components/Card';
 import { Title, Date, ImageWrapper } from 'components/Card/look';
 import { School, Major, Badge, ContainedCard, InfoSection } from './look';
 
