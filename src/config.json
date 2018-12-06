@@ -38,7 +38,9 @@
       "school": "California State University East Bay",
       "major": "Computer Science",
       "type": "Non-degree continuing education",
-      "place": "Hayward, United States"
+      "place": "Hayward, United States",
+      "badge": "https://media.licdn.com/dms/image/C510BAQGtl_-oVAWDfA/company-logo_400_400/0?e=1551916800&v=beta&t=NLbSN7SCrikdQJ_Vf1IL2HwGUYoWSdubFYrL7qe-NYg",
+      "url": "https://www.csueastbay.edu"
     },
     {
       "period": {
@@ -48,7 +50,9 @@
       "school": "Instituto Federal do Sudeste de Minas Gerais",
       "major": "Systems for the Internet",
       "type": "Bachelor of Science",
-      "place": "Barbacena, Brazil"
+      "place": "Barbacena, Brazil",
+      "badge": "https://media.licdn.com/dms/image/C560BAQF9F8N5ohm3Mg/company-logo_400_400/0?e=1551916800&v=beta&t=EGVt1jhzVhphbMEPOZdhJoZbYfyU3eGw0K-5KRREnQo",
+      "url": "https://www.ifsudestemg.edu.br/"
     }
   ],
   "experiences": [
@@ -118,7 +122,7 @@
       "location": "Irvine, United States",
       "description": "During this Summer Internship, I was part of the team developing a project called iXercise, which aims to stimulate people exercising while they're playing games as Minecraft or Pokemon GO.\n\n I helped building the web app Front End with Angularjs and I also got to give some small Java contributions.",
       "url": "https://uci.edu/",
-      "image": "https://www.insidehighered.com/sites/default/server_files/media/Schools%20page/University%20of%20California%2C%20Irvine.jpg",
+      "image": "https://www.logolynx.com/images/logolynx/bd/bdc28b420a16378fd4698e0b55c7faf7.jpeg",
       "color": "#0064a4",
       "text": "#fff"
     }

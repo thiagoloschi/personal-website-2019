@@ -10,13 +10,10 @@ export const FixedSizeCard = styled(Card)`
 `;
 
 export const Image = styled.img`
-  width: 80%;
+  max-width: 80%;
   height: auto;
   margin-top: 1rem;
-`;
-
-export const ImageWrapper = styled.a`
-  text-align: center;
+  max-height: 340px;
 `;
 
 export const Description = styled.p`

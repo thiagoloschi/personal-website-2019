@@ -1,25 +1,38 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Card from 'components/Card';
-import { Title, Date } from 'components/Card/look';
+import { Title, Date, ImageWrapper } from 'components/Card/look';
+import { School, Major, Badge, ContainedCard, InfoSection } from './look';
 
-export default function EducationCard({ period, school, major, type, place }) {
+export default function EducationCard({
+  period,
+  school,
+  major,
+  type,
+  place,
+  badge,
+  url,
+}) {
   const { beginDate, endDate } = period;
 
   return (
-    <Card>
-      <Title>
-        <strong>{school}</strong>
-        <Date>
-          {beginDate} - {endDate}
-        </Date>
-      </Title>
-      <p>
-        {major} - <small>{place}</small>
-      </p>
-
-      <small>{type}</small>
-    </Card>
+    <ContainedCard>
+      <ImageWrapper href={url} target="_blank" rel="noopener noreferrer">
+        <Badge src={badge} title={school} alt={school} />
+      </ImageWrapper>
+      <InfoSection>
+        <Title>
+          <School>{school}</School>
+          <Date>
+            {beginDate} - {endDate}
+          </Date>
+        </Title>
+        <Major>
+          {major} - <small>{place}</small>
+        </Major>
+        <small>{type}</small>
+      </InfoSection>
+    </ContainedCard>
   );
 }
 

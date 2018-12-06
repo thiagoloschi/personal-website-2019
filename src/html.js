@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { personalInfo } from './config';
 const { firstName, lastName } = personalInfo.name;
-import { body } from './globalStyles.module.css';
 
 export default class HTML extends React.Component {
   render() {
@@ -22,7 +21,10 @@ export default class HTML extends React.Component {
           />
           {this.props.headComponents}
         </head>
-        <body className={body} {...this.props.bodyAttributes}>
+        <body
+          style={{ margin: 0, overflow: 'hidden' }}
+          {...this.props.bodyAttributes}
+        >
           {this.props.preBodyComponents}
           <div
             key={`body`}

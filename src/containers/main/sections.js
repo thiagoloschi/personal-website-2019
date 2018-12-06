@@ -16,7 +16,7 @@ export const Main = styled.main`
 `;
 
 export const LeftSection = styled.section`
-  width: 35%;
+  width: 40%;
   min-width: 400px;
 
   @media only screen and (max-width: 1024px) {

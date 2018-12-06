@@ -1,13 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Title, Date } from 'components/Card/look';
-import {
-  FixedSizeCard,
-  Image,
-  ImageWrapper,
-  Description,
-  Company,
-} from './look';
+import { Title, Date, ImageWrapper } from 'components/Card/look';
+import { FixedSizeCard, Image, Description, Company } from './look';
 
 export default function ExperienceCard({
   period,
