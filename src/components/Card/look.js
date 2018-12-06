@@ -8,4 +8,19 @@ const Section = styled.section`
   white-space: pre-line;
 `;
 
+export const Title = styled.header`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const Date = styled.p`
+  margin: unset;
+  text-align: right;
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.7;
+`;
+
 export default Section;

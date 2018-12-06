@@ -6,6 +6,7 @@ export const FixedSizeCard = styled(Card)`
   flex-direction: column;
   justify-content: center;
   min-height: 750px;
+  max-width: 790px;
 `;
 
 export const Image = styled.img`
@@ -24,16 +25,7 @@ export const Description = styled.p`
 `;
 
 export const Company = styled.p`
+  margin: unset;
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: -1rem;
-`;
-
-export const Date = styled.p`
-  text-align: right;
-`;
-
-export const Title = styled.header`
-  display: flex;
-  justify-content: space-between;
 `;

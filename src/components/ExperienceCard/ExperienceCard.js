@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Title, Date } from 'components/Card/look';
 import {
   FixedSizeCard,
   Image,
   ImageWrapper,
   Description,
-  Date,
   Company,
-  Title,
 } from './look';
 
 export default function ExperienceCard({
@@ -31,8 +30,9 @@ export default function ExperienceCard({
           {beginDate} - {endDate}
         </Date>
       </Title>
-      <p>{jobTitle}</p>
-      <p>{location}</p>
+      <p>
+        {jobTitle} - <small>{location}</small>
+      </p>
       <Description>{description}</Description>
       <ImageWrapper href={url} target="_blank" rel="noopener noreferrer">
         <Image src={image} title={company} alt={company} />

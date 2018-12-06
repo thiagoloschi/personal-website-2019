@@ -6,7 +6,7 @@ import { Title, JobTitle } from './look';
 import Contacts from 'components/ContactFactory';
 
 export default function BusinessCard({ personalInfo }) {
-  const { name, jobTitle, contacts } = personalInfo;
+  const { name, jobTitle, location, contacts } = personalInfo;
   const { firstName, lastName } = name;
 
   return (
@@ -15,7 +15,12 @@ export default function BusinessCard({ personalInfo }) {
         {firstName}
         <strong> {lastName}</strong>
       </Title>
-      <JobTitle>{jobTitle}</JobTitle>
+      <JobTitle>
+        {jobTitle}
+        <div>
+          <small>{location}</small>
+        </div>
+      </JobTitle>
       <Contacts contactInfo={contacts} />
     </Card>
   );

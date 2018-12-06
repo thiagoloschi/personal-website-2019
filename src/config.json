@@ -4,7 +4,8 @@
       "firstName": "Thiago",
       "lastName": "Loschi"
     },
-    "jobTitle": "Senior Front End Engineer - Ottawa, Canada",
+    "jobTitle": "Senior Front End Engineer",
+    "location": "Ottawa, Canada",
     "contacts": [
       {
         "name": "linkedin",
@@ -31,29 +32,29 @@
   "education": [
     {
       "period": {
-        "beginDate": "06/2015",
-        "endDate": "06/2016"
+        "beginDate": "2015",
+        "endDate": "2016"
       },
       "school": "California State University East Bay",
       "major": "Computer Science",
       "type": "Non-degree continuing education",
-      "place": "Hayward, California, US"
+      "place": "Hayward, United States"
     },
     {
       "period": {
-        "beginDate": "01/2013",
-        "endDate": "12/2016"
+        "beginDate": "2013",
+        "endDate": "2016"
       },
       "school": "Instituto Federal do Sudeste de Minas Gerais",
       "major": "Systems for the Internet",
-      "type": "BS",
-      "place": "Barbacena, Minas Gerais, Brazil"
+      "type": "Bachelor of Science",
+      "place": "Barbacena, Brazil"
     }
   ],
   "experiences": [
     {
       "period": {
-        "beginDate": "08/2018",
+        "beginDate": "August 2018",
         "endDate": "current"
       },
       "jobTitle": "Senior Front End Engineer",
@@ -67,8 +68,8 @@
     },
     {
       "period": {
-        "beginDate": "07/2017",
-        "endDate": "08/2018"
+        "beginDate": "July 2017",
+        "endDate": "August 2018"
       },
       "jobTitle": "Front End Engineer",
       "company": "QuintoAndar",
@@ -81,8 +82,8 @@
     },
     {
       "period": {
-        "beginDate": "03/2017",
-        "endDate": "07/2017"
+        "beginDate": "March 2017",
+        "endDate": "July 2017"
       },
       "jobTitle": "Full Stack Developer",
       "company": "PRTE Tecnologia",
@@ -95,8 +96,8 @@
     },
     {
       "period": {
-        "beginDate": "09/2016",
-        "endDate": "03/2017"
+        "beginDate": "September 2016",
+        "endDate": "March 2017"
       },
       "jobTitle": "Front End Developer",
       "company": "Self",
@@ -109,8 +110,8 @@
     },
     {
       "period": {
-        "beginDate": "06/2016",
-        "endDate": "09/2016"
+        "beginDate": "June 2016",
+        "endDate": "September 2016"
       },
       "jobTitle": "Junior Developer",
       "company": "University of California, Irvine",

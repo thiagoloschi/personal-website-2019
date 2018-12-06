@@ -1,19 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Card from 'components/Card';
+import { Title, Date } from 'components/Card/look';
 
 export default function EducationCard({ period, school, major, type, place }) {
   const { beginDate, endDate } = period;
 
   return (
     <Card>
+      <Title>
+        <strong>{school}</strong>
+        <Date>
+          {beginDate} - {endDate}
+        </Date>
+      </Title>
       <p>
-        {beginDate} - {endDate}
+        {major} - <small>{place}</small>
       </p>
-      <strong>{school}</strong>
-      <p>{major}</p>
-      <p>{type}</p>
-      <p>{place}</p>
+
+      <small>{type}</small>
     </Card>
   );
 }
