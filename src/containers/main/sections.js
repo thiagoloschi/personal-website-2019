@@ -11,7 +11,7 @@ export const Main = styled.main`
   overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-device-width: 1024px) {
     overflow-y: auto;
   }
 `;
@@ -20,7 +20,7 @@ export const LeftSection = styled.section`
   width: 40%;
   min-width: 400px;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-device-width: 1024px) {
     width: 100%;
   }
 `;
@@ -30,7 +30,7 @@ export const RightSection = styled.section`
   min-width: 400px;
   overflow-y: auto;
 
-  @media only screen and (max-width: 1024px) {
+  @media only screen and (max-device-width: 1024px) {
     width: 100%;
   }
 

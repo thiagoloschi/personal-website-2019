@@ -13,11 +13,10 @@ export default class HTML extends React.Component {
           <title>
             {firstName} {lastName}
           </title>
-          <link rel="shortcut icon" href="public/icons/thiago.ico" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />
           <meta
             name="viewport"
-            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+            content="width=device-width, initial-scale=0.75, maximum-scale=1"
           />
           {this.props.headComponents}
         </head>
