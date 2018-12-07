@@ -9,7 +9,7 @@
 
 ### Description
 
-For the 2018's version of my website I wanted to build something simpler with clear info and that was easy to read. I also wanted to build it in React, as it the technology I'm more comfortable with, so I came up with this. 
+For the 2018's version of my website I wanted to build something simpler with clear info and that was easy to read. I also wanted to build it in React, as it is the technology I'm more comfortable with, so I came up with this. 
 
 ### Technologies
 
