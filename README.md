@@ -30,3 +30,22 @@ A demo can be seen live at [thiagoloschi.com](https://thiagoloschi). I'll edit t
 
 ### Screenshots
 
+<br />
+
+**Desktop:** Scroll down for experience cards
+
+<img width="1678" alt="screen shot 2018-12-07 at 6 48 22 pm" src="https://user-images.githubusercontent.com/10034981/49673144-95aadd80-fa54-11e8-81fd-b60b452b1515.png">
+<img width="1679" alt="screen shot 2018-12-07 at 6 48 41 pm" src="https://user-images.githubusercontent.com/10034981/49673153-9c395500-fa54-11e8-8b65-26af3cf3e1e3.png">
+<img width="1678" alt="screen shot 2018-12-07 at 6 48 59 pm" src="https://user-images.githubusercontent.com/10034981/49673163-a4919000-fa54-11e8-9db4-6c839b29dc36.png">
+
+<br />
+
+**Mobile**
+
+<img width="334" alt="screen shot 2018-12-07 at 6 49 22 pm" src="https://user-images.githubusercontent.com/10034981/49673154-9d6a8200-fa54-11e8-9e8f-67d5cd573beb.png">
+
+<br />
+
+**Tablet**
+
+<img width="399" alt="screen shot 2018-12-07 at 6 49 59 pm" src="https://user-images.githubusercontent.com/10034981/49673159-a0657280-fa54-11e8-9f5d-91d3747ad75a.png">
