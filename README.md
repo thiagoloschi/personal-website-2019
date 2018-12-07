@@ -76,11 +76,11 @@ To develop your own website, clone the project and follow [instructions to set u
 
 ### Development
 
-This time I decided not to open pull requests as I usually do. Instead, the code was written on the [develop](https://github.com/thiagoloschi/thiagoloschi.github.com) branch and deployed to the [master](https://github.com/thiagoloschi/thiagoloschi.github.com/tree/master) branch.
+This time I decided not to open pull requests as I usually do. Instead, the code was written to the [develop](https://github.com/thiagoloschi/thiagoloschi.github.com) branch and deployed to the [master](https://github.com/thiagoloschi/thiagoloschi.github.com/tree/master) branch.
 
 ### Demo
 
-A demo can be seen live at [thiagoloschi.com](https://thiagoloschi). I'll edit this document with one more use case when there's any.
+A demo can be seen live at [thiagoloschi.com](https://thiagoloschi.com). I'll edit this document with one more use case when there's any.
 
 ### Screenshots
 
