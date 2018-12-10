@@ -9,7 +9,7 @@
 
 ### Description
 
-For the 2018's version of my website I wanted to build something simpler with clear info and that was easy to read. I also wanted to build it in React, so I came up with this. 
+For the 2018's version of my website I wanted to build something simpler with clear info and that was easy to read. I also wanted to build it in React, so I came up with this, a template for a personal website.
 
 ### Technologies
 
@@ -17,7 +17,7 @@ To build the website, I've used [Gatsby.js](https://www.gatsbyjs.org/), a tool t
 
 ### Build your own version
 
-I wanted to build something that could easily be reused by someone else, developers or even people with no coding skills, so I created a [config](https://github.com/thiagoloschi/thiagoloschi.github.com/blob/develop/src/config.json) file that gives you full control over the site's content. By changing this file, you can adapt the website to your own experiences and whithin some minutes, build your own personal website.
+I wanted to build something that could easily be reused by someone else, developers or even people with no coding skills, so I created a [config](https://github.com/thiagoloschi/thiagoloschi.github.com/blob/develop/src/config.json) file that gives you full control over the site's content. By changing this file, you can adapt the temaplte to your own experiences and whithin some minutes, build your own personal website.
 
 ```js
   "personalInfo": {
@@ -80,7 +80,11 @@ This time I decided not to open pull requests as I usually do. Instead, the code
 
 ### Demo
 
-A demo can be seen live at [thiagoloschi.com](https://thiagoloschi.com). I'll edit this document with one more use case when there's any.
+A demo can be seen live at [thiagoloschi.com](https://thiagoloschi.com), which is my personal website.
+
+And there's also Monique's fork at [monimoledo.github.io](https://monimoledo.github.io), which is an example of the template being used for the first time. :)
+
+I'll edit this document with more use cases when there are any.
 
 ### Screenshots
 
