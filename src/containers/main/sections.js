@@ -19,7 +19,7 @@ export const Main = styled.main`
 
 export const LeftSection = styled.section`
   flex: 1;
-  width: 40%;
+  width: 50%;
   min-width: 400px;
   z-index: 1;
 
