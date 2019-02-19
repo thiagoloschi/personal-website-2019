@@ -8,33 +8,43 @@ export const Main = styled.main`
   flex-wrap: wrap;
   justify-content: space-around;
   max-height: 100vh;
-  overflow-y: hidden;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
+  z-index: 2;
 
-  @media only screen and (max-device-width: 1024px) {
-    overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
   }
 `;
 
 export const LeftSection = styled.section`
+  flex: 1;
   width: 40%;
   min-width: 400px;
+  z-index: 1;
 
-  @media only screen and (max-device-width: 1024px) {
+  @media only screen and (max-width: 1024px) {
+    width: 100%;
+  }
+`;
+
+export const FixedContent = styled.section`
+  position: fixed;
+  flex: 1;
+  width: inherit;
+
+  @media only screen and (max-width: 1024px) {
+    position: initial;
     width: 100%;
   }
 `;
 
 export const RightSection = styled.section`
+  flex: 1;
   width: 55%;
   min-width: 400px;
-  overflow-y: auto;
 
-  @media only screen and (max-device-width: 1024px) {
+  @media only screen and (max-width: 1024px) {
     width: 100%;
-  }
-
-  &::-webkit-scrollbar {
-    display: none;
   }
 `;
