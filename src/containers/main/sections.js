@@ -1,13 +1,15 @@
 import styled from 'styled-components';
 
 export const Main = styled.main`
-  @import url('https://fonts.googleapis.com/css?family=Montserrat');
-  font-family: 'Montserrat', sans-serif;
+  @import url('${({ theme }) => theme.fontUrl}');
+  font-family: ${({ theme }) => theme.fontName};
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   max-height: 100vh;
+  background-color: ${({ theme }) => theme.color };
+  
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
   z-index: 2;
