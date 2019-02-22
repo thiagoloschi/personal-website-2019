@@ -4,8 +4,9 @@
 2. [Technologies](#technologies)
 3. [Development](#development)
 4. [Build your own version](#build-your-own-version)
-4. [Demo](#demo)
-5. [Screenshots](#screenshots)
+5. [Demo](#demo)
+6. [Screenshots](#screenshots)
+7. [Themes](#themes)
 
 ### Description
 
@@ -82,11 +83,11 @@ To develop your own website, clone the project and follow [instructions to set u
 
 ### Development
 
-This time I decided not to open pull requests as I usually do. Instead, the code was written to the [develop](https://github.com/thiagoloschi/thiagoloschi.github.com) branch and deployed to the [master](https://github.com/thiagoloschi/thiagoloschi.github.com/tree/master) branch.
+This time I decided not to open pull requests as I usually do. Instead, the code was written to the [develop](https://github.com/thiagoloschi/thiagoloschi.github.com) branch and deployed to the [master](https://github.com/thiagoloschi/thiagoloschi.github.com/tree/master) branch. New features and issues resolution will come in a form of PRs. Collaboration is welcome!
 
 ### Demo
 
-A demo can be seen live at [thiagoloschi.com](https://thiagoloschi.com), which is my personal website.
+A demo can be seen live at my own personal website: [thiagoloschi.com](https://thiagoloschi.com)
 
 And there's also Monique's fork at <a href="https://monimoledo.github.io" target="_blank" >monimoledo.github.io</a>, which is an example of the template being used for the first time. :)
 
@@ -113,3 +114,18 @@ I'll edit this document with more use cases when there are any.
 **Tablet:**
 
 <img width="399" alt="screen shot 2018-12-07 at 6 49 59 pm" src="https://user-images.githubusercontent.com/10034981/49673159-a0657280-fa54-11e8-9f5d-91d3747ad75a.png">
+
+### Themes
+You can also set a different theme and style it the way you want:
+
+```js
+  "theme": {
+    "color": "#333",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Roboto",
+    "fontName": "'Roboto', sans-serif",
+    "fontColor": "#fff"
+  }
+```
+
+![image](https://user-images.githubusercontent.com/10034981/53262645-efb35a80-36b5-11e9-944e-35dfb7e03bee.png)
+
