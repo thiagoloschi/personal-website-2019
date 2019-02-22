@@ -68,8 +68,14 @@ I wanted to build something that could easily be reused by someone else, develop
       "color": "#fafafa",
       "text": "#333"
     }
-   ]
+  ],
+  "theme": {
+    "color": "#fff",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Montserrat",
+    "fontName": "'Montserrat', sans-serif",
+    "fontColor": "#000"
   }
+}
 ```
 
 To develop your own website, clone the project and follow [instructions to set up your own github pages](https://guides.github.com/features/pages/), then read [gatsby docs on starting the project](https://www.gatsbyjs.org/docs/quick-start). Note that if you're cloning an existing project, you can jump to [starting the development server](https://www.gatsbyjs.org/docs/quick-start#start-development-server), after [installing the dependencies](https://www.gatsbyjs.org/docs/quick-start#install-gatsbys-command-line-tool). Once you're done with editting the config file, follow this article on how to easily [deploy your website to github pages](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/). You should then be ready to go! 
