@@ -14,7 +14,7 @@ For the 2018's version of my website I wanted to build something simpler with cl
 
 ### Technologies
 
-To build the website, I've used [Gatsby.js](https://www.gatsbyjs.org/), a tool that eases up the process of extracting the static files of a React application and let them ready to be deployed to Github. As well as react, es6, webpack, html5 and styled-components.
+To build the website, I used [Gatsby.js](https://www.gatsbyjs.org/), a tool that eases up the process of extracting the static files of a React application and let them ready to be deployed to Github. As well as react, es6, webpack, html5 and styled-components.
 
 ### Build your own version
 
@@ -79,7 +79,7 @@ I wanted to build something that could easily be reused by someone else, develop
 }
 ```
 
-To develop your own website, clone the project and follow [instructions to set up your own github pages](https://guides.github.com/features/pages/), then read [gatsby docs on starting the project](https://www.gatsbyjs.org/docs/quick-start). Note that if you're cloning an existing project, you can jump to [starting the development server](https://www.gatsbyjs.org/docs/quick-start#start-development-server), after [installing the dependencies](https://www.gatsbyjs.org/docs/quick-start#install-gatsbys-command-line-tool). Once you're done with editting the config file, follow this article on how to easily [deploy your website to github pages](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/). You should then be ready to go! 
+To develop your own website, clone the project and follow these [instructions to set up your own github pages](https://guides.github.com/features/pages/), then read [gatsby docs on starting the project](https://www.gatsbyjs.org/docs/quick-start). Note that if you're cloning an existing project, you can jump to [starting the development server](https://www.gatsbyjs.org/docs/quick-start#start-development-server), after [installing the dependencies](https://www.gatsbyjs.org/docs/quick-start#install-gatsbys-command-line-tool). Once you're done with editting the config file, follow this article on how to easily [deploy your website to github pages](https://www.gatsbyjs.org/docs/how-gatsby-works-with-github-pages/). You should then be ready to go! 
 
 ### Development
 
