@@ -4,9 +4,9 @@ const Section = styled.section`
   padding: 2rem;
   max-width: 512px;
   margin: auto;
-  border: solid 1px ${({ color }) => color || '#fff'};
-  background: ${({ color }) => color || '#fff'};
-  color: ${({ text }) => text || '#000'};
+  border: solid 1px ${({ color, theme }) => color || theme.color };
+  background: ${({ color, theme }) => color || theme.color };
+  color: ${({ text, theme }) => text || theme.fontColor };
   white-space: pre-line;
 `;
 

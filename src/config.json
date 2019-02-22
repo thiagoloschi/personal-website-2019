@@ -126,5 +126,11 @@
       "color": "#0064a4",
       "text": "#fff"
     }
-  ]
+  ],
+  "theme": {
+    "color": "#fff",
+    "fontUrl": "https://fonts.googleapis.com/css?family=Montserrat",
+    "fontName": "'Montserrat', sans-serif",
+    "fontColor": "#000"
+  }
 }
