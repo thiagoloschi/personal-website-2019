@@ -19,7 +19,7 @@ export const Main = styled.main`
   }
 `;
 
-export const LeftSection = styled.section`
+export const LeftSection = styled.aside`
   flex: 1;
   width: 50%;
   min-width: 400px;

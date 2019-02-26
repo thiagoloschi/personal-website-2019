@@ -1,13 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Contact from 'components/Contact';
-import { IconWrapper } from './look';
+import { IconsList, Icon } from './look';
 
 export default function ContactFactory({ contactInfo }) {
   const Contacts = contactInfo.map(info => (
-    <Contact {...info} key={info.name} />
+    <li>
+      <Contact {...info} key={info.name} />
+    </li>
   ));
-  return <IconWrapper>{Contacts}</IconWrapper>;
+  return <IconsList>{Contacts}</IconsList>;
 }
 
 ContactFactory.propTypes = {

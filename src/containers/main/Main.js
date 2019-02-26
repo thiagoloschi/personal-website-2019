@@ -4,7 +4,7 @@ import { personalInfo, education, experiences, theme } from 'config';
 import BusinessCard from 'components/BusinessCard';
 import Education from 'components/EducationFactory';
 import Experiences from 'components/ExperiencesFactory';
-import { Main, LeftSection, RightSection, FixedContent } from './sections';
+import { Main, LeftSection, RightSection, FixedContent } from './look';
 
 const MainPage = () => {
   return (

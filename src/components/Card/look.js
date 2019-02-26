@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Section = styled.section`
+const Article = styled.article`
   padding: 2rem;
   max-width: 512px;
   margin: auto;
@@ -10,13 +10,14 @@ const Section = styled.section`
   white-space: pre-line;
 `;
 
-export const Title = styled.header`
+export const Title = styled.h4`
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  margin: 0;
 `;
 
-export const Date = styled.p`
+export const Date = styled.time`
   margin: unset;
   text-align: right;
   font-weight: bold;
@@ -29,4 +30,4 @@ export const ImageWrapper = styled.a`
   text-align: center;
 `;
 
-export default Section;
+export default Article;

@@ -10,7 +10,7 @@ export default function BusinessCard({ personalInfo }) {
   const { firstName, lastName } = name;
 
   return (
-    <Card>
+    <Card tagName="Header">
       <Title>
         {firstName}
         <strong> {lastName}</strong>

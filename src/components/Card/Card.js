@@ -1,10 +1,19 @@
 import React from 'react';
-import Section from './look';
+import Article from './look';
+import PropTypes from 'prop-types';
 
-export default function Card({ className, color, text, children }) {
+Card.PropTypes = {
+  className: PropTypes.string,
+  color: PropTypes.string,
+  text: PropTypes.string,
+  children: PropTypes.node.isRequired,
+  tagName: PropTypes.string,
+}
+
+export default function Card({ className, color, text, children, tagName }) {
   return (
-    <Section className={className} color={color} text={text}>
+    <Article className={className} color={color} text={text} as={tagName}>
       {children}
-    </Section>
+    </Article>
   );
 }
