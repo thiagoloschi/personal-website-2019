@@ -1,4 +1,4 @@
-# 2018's version of my personal website
+# 2019's version of my personal website
 
 1. [Description](#description)
 2. [Technologies](#technologies)
